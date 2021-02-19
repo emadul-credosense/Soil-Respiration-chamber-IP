@@ -1,0 +1,18 @@
+***************************change to matlibplot.py file****************************
+#send self.client to malibplot1(self.client) file.
+from subplotfunction import matlibplot1
+from bleak import BleakClient
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+    def __init__(self, window, address):
+        super(Ui_Matlibplot, self).__init__()
+        self.client = BleakClient(address)
+        self.setupUi(window)
+
+#remove all the part after retranslate ui 
+
+***************************change to scanpage.py file**************************
+    def __init__(self, window):
+        super(Ui_ScanWindow, self).__init__()
+        self.setupUi(window)
