@@ -162,12 +162,15 @@ class thread(QThread):
     def run(self):
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
-        self.fromFunctionality = Functionality.functionality()
+
         while True:
             try:
+                self.fromFunctionality = Functionality.functionality()
                 loop.run_until_complete(self.fromFunctionality.receiveData(self.client))
                 # Setting current chamber status
+                print("in thread")
                 if self.fromFunctionality.currentStatus == 0:
+
                     self.label10.setText("Chamber status: Close")
                 # ToDo(important): this two should be uncommented before release
                 # self.fromFunctionality.saveData()

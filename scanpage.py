@@ -1,3 +1,4 @@
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -204,6 +205,6 @@ class Ui_ScanWindow(object):
                                          "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
                                          "p, li { white-space: pre-wrap; }\n"
                                          "</style></head><body style=\" font-family:\'Arial\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-                                         "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'MS Shell Dlg 2\';\">Click on the </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Scan Now</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button to find available devices. Click on the device and then click on  </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Connect</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button to communicate with the CredoSense SRC-5 Respiration Chamber. To refresh your scan result click on </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Refresh</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button.</span></p>\n"
+                                         "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'MS Shell Dlg 2\';\">Click on the </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Scan Now</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button to find available devices. Click on the device and then click on  </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Connect</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button to communicate with the CS-RC5 Respiration Chamber. To refresh your scan result click on </span><span style=\" font-family:\'MS Shell Dlg 2\'; font-weight:600;\">Refresh</span><span style=\" font-family:\'MS Shell Dlg 2\';\"> button.</span></p>\n"
                                          "<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'MS Shell Dlg 2\'; font-size:8pt;\"><br /></p></body></html>"))
-        self.label.setText(_translate("MainWindow", "Scanning CredoSense SRC-5 Respiration Chamber"))
+        self.label.setText(_translate("MainWindow", "Scanning CS-RC5 Respiration Chamber"))

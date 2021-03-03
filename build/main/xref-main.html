@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for main.py, pyi_rth__tkinter.py, pyi_rth_mplconfig.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py, pyi_rth_pyqt5.py</title>
+    <title>modulegraph cross reference for main.py, pyi_rth__tkinter.py, pyi_rth_certifi.py, pyi_rth_mplconfig.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py, pyi_rth_pyqt5.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for main.py, pyi_rth__tkinter.py, pyi_rth_mplconfig.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py, pyi_rth_pyqt5.py</h1>
+    <h1>modulegraph cross reference for main.py, pyi_rth__tkinter.py, pyi_rth_certifi.py, pyi_rth_mplconfig.py, pyi_rth_multiprocessing.py, pyi_rth_pkgres.py, pyi_rth_pyqt5.py</h1>
 
 <div class="node">
   <a name="main.py"></a>
@@ -166,6 +166,7 @@ imports:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_certifi.py">pyi_rth_certifi.py</a>
  &#8226;   <a href="#pyi_rth_mplconfig.py">pyi_rth_mplconfig.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
@@ -192,6 +193,24 @@ imports:
 <span class="moduletype">Script</span>  <div class="import">
 imports:
     <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_certifi.py"></a>
+  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/pyi_rth_certifi.py" type="text/plain"><tt>pyi_rth_certifi.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
@@ -390,6 +409,17 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="'importlib.resources'"></a>
+  <a target="code" href="" type="text/plain"><tt>'importlib.resources'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#certifi.core">certifi.core</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="'java.lang'"></a>
   <a target="code" href="" type="text/plain"><tt>'java.lang'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -471,46 +501,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'pkg_resources._vendor.six.moves'"></a>
-  <a target="code" href="" type="text/plain"><tt>'pkg_resources._vendor.six.moves'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#'pkg_resources._vendor.six.moves'">'pkg_resources._vendor.six.moves'</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'pkg_resources._vendor.six.moves'"></a>
-  <a target="code" href="" type="text/plain"><tt>'pkg_resources._vendor.six.moves'</tt></a>
-<span class="moduletype">AliasNode</span>  <div class="import">
-imports:
-    <a href="#'pkg_resources._vendor.six.moves'">'pkg_resources._vendor.six.moves'</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="'pkg_resources.extern.packaging.version'"></a>
-  <a target="code" href="" type="text/plain"><tt>'pkg_resources.extern.packaging.version'</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.msvc">setuptools.msvc</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="'pkg_resources.extern.pyparsing'"></a>
   <a target="code" href="" type="text/plain"><tt>'pkg_resources.extern.pyparsing'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -523,24 +513,45 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'pkg_resources.extern.six.moves'"></a>
-  <a target="code" href="" type="text/plain"><tt>'pkg_resources.extern.six.moves'</tt></a>
+  <a name="'setuptools.extern.packaging.specifiers'"></a>
+  <a target="code" href="" type="text/plain"><tt>'setuptools.extern.packaging.specifiers'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+    <a href="#setuptools.config">setuptools.config</a>
 
   </div>
 
 </div>
 
 <div class="node">
-  <a name="'setuptools.extern.six'"></a>
-  <a target="code" href="" type="text/plain"><tt>'setuptools.extern.six'</tt></a>
+  <a name="'setuptools.extern.packaging.tags'"></a>
+  <a target="code" href="" type="text/plain"><tt>'setuptools.extern.packaging.tags'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
+    <a href="#setuptools.wheel">setuptools.wheel</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'setuptools.extern.packaging.utils'"></a>
+  <a target="code" href="" type="text/plain"><tt>'setuptools.extern.packaging.utils'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#setuptools.wheel">setuptools.wheel</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'setuptools.extern.packaging.version'"></a>
+  <a target="code" href="" type="text/plain"><tt>'setuptools.extern.packaging.version'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#setuptools.config">setuptools.config</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
 
   </div>
 
@@ -747,7 +758,6 @@ imports:
  &#8226;   <a href="#PIL.ImageSequence">PIL.ImageSequence</a>
  &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
  &#8226;   <a href="#PIL.ImageTk">PIL.ImageTk</a>
- &#8226;   <a href="#PIL.Jpeg2KImagePlugin">PIL.Jpeg2KImagePlugin</a>
  &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
  &#8226;   <a href="#PIL.PaletteFile">PIL.PaletteFile</a>
  &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
@@ -1742,8 +1752,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL">PIL</a>
- &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
+    <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
  &#8226;   <a href="#PIL.Image">PIL.Image</a>
 
   </div>
@@ -2717,7 +2726,6 @@ imported by:
  &#8226;   <a href="#numpy.lib.format">numpy.lib.format</a>
  &#8226;   <a href="#numpy.lib.utils">numpy.lib.utils</a>
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#six">six</a>
 
   </div>
@@ -2762,6 +2770,7 @@ imported by:
  &#8226;   <a href="#numpy.ma.core">numpy.ma.core</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
 
   </div>
 
@@ -2912,7 +2921,6 @@ imported by:
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
  &#8226;   <a href="#ordlookup">ordlookup</a>
  &#8226;   <a href="#pefile">pefile</a>
- &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.__about__">pkg_resources._vendor.packaging.__about__</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
@@ -2922,7 +2930,8 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
+ &#8226;   <a href="#setuptools._vendor.packaging">setuptools._vendor.packaging</a>
+ &#8226;   <a href="#setuptools._vendor.packaging.__about__">setuptools._vendor.packaging.__about__</a>
  &#8226;   <a href="#six">six</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
  &#8226;   <a href="#win32ctypes.core.cffi._authentication">win32ctypes.core.cffi._authentication</a>
@@ -3238,6 +3247,45 @@ imported by:
   <tt>_decimal</tt> <span class="moduletype"><tt>c:\users\credo\appdata\local\programs\python\python36\DLLs\_decimal.pyd</tt></span>  <div class="import">
 imported by:
     <a href="#decimal">decimal</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_distutils_hack"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/_distutils_hack/__init__.py" type="text/plain"><tt>_distutils_hack</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_distutils_hack.override">_distutils_hack.override</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_distutils_hack.override"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/_distutils_hack/override.py" type="text/plain"><tt>_distutils_hack.override</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_distutils_hack">_distutils_hack</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
 
   </div>
 
@@ -3774,6 +3822,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
 
@@ -3991,7 +4040,6 @@ imported by:
  &#8226;   <a href="#multiprocessing.managers">multiprocessing.managers</a>
  &#8226;   <a href="#multiprocessing.reduction">multiprocessing.reduction</a>
  &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
- &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
 
   </div>
 
@@ -4015,6 +4063,7 @@ imported by:
  &#8226;   <a href="#matplotlib.rcsetup">matplotlib.rcsetup</a>
  &#8226;   <a href="#numpy.lib.utils">numpy.lib.utils</a>
  &#8226;   <a href="#numpy.matrixlib.defmatrix">numpy.matrixlib.defmatrix</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
 
   </div>
 
@@ -5899,7 +5948,6 @@ imported by:
   <tt>builtins</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#PIL.Image">PIL.Image</a>
- &#8226;   <a href="#builtins">builtins</a>
  &#8226;   <a href="#bz2">bz2</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#doctest">doctest</a>
@@ -5920,26 +5968,10 @@ imported by:
  &#8226;   <a href="#pefile">pefile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tokenize">tokenize</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="builtins"></a>
-  <a target="code" href="" type="text/plain"><tt>builtins</tt></a>
-<span class="moduletype">AliasNode</span>  <div class="import">
-imports:
-    <a href="#builtins">builtins</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
 
   </div>
 
@@ -6039,11 +6071,34 @@ imported by:
 
 <div class="node">
   <a name="certifi"></a>
-  <a target="code" href="" type="text/plain"><tt>certifi</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/certifi/__init__.py" type="text/plain"><tt>certifi</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#certifi.core">certifi.core</a>
+
+  </div>
+  <div class="import">
 imported by:
-    <a href="#matplotlib">matplotlib</a>
- &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+    <a href="#certifi.core">certifi.core</a>
+ &#8226;   <a href="#matplotlib">matplotlib</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="certifi.core"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/certifi/core.py" type="text/plain"><tt>certifi.core</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'importlib.resources'">'importlib.resources'</a>
+ &#8226;   <a href="#certifi">certifi</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#certifi">certifi</a>
 
   </div>
 
@@ -6776,7 +6831,11 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#queue">queue</a>
  &#8226;   <a href="#selectors">selectors</a>
+ &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#ssl">ssl</a>
@@ -6823,7 +6882,10 @@ imported by:
  &#8226;   <a href="#numpy.lib.function_base">numpy.lib.function_base</a>
  &#8226;   <a href="#numpy.lib.npyio">numpy.lib.npyio</a>
  &#8226;   <a href="#numpy.testing._private.decorators">numpy.testing._private.decorators</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#typing">typing</a>
 
@@ -6992,29 +7054,13 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#configparser">configparser</a>
- &#8226;   <a href="#distutils.config">distutils.config</a>
+    <a href="#distutils.config">distutils.config</a>
  &#8226;   <a href="#distutils.dist">distutils.dist</a>
  &#8226;   <a href="#numpy.distutils.npy_pkg_config">numpy.distutils.npy_pkg_config</a>
  &#8226;   <a href="#numpy.distutils.system_info">numpy.distutils.system_info</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="configparser"></a>
-  <a target="code" href="" type="text/plain"><tt>configparser</tt></a>
-<span class="moduletype">AliasNode</span>  <div class="import">
-imports:
-    <a href="#configparser">configparser</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
 
   </div>
@@ -7068,6 +7114,9 @@ imported by:
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
+ &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#unittest.case">unittest.case</a>
@@ -7122,6 +7171,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pycparser.ply.lex">pycparser.ply.lex</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#weakref">weakref</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
@@ -7445,6 +7495,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
 
   </div>
@@ -7969,7 +8020,10 @@ imported by:
  &#8226;   <a href="#setuptools.command.install_scripts">setuptools.command.install_scripts</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
 
   </div>
 
@@ -8137,7 +8191,6 @@ imported by:
  &#8226;   <a href="#distutils.dist">distutils.dist</a>
  &#8226;   <a href="#numpy.distutils.command.build_src">numpy.distutils.command.build_src</a>
  &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
- &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
 
   </div>
 
@@ -8530,7 +8583,6 @@ imported by:
  &#8226;   <a href="#numpy.distutils.misc_util">numpy.distutils.misc_util</a>
  &#8226;   <a href="#numpy.distutils.numpy_distribution">numpy.distutils.numpy_distribution</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
 
@@ -8586,6 +8638,7 @@ imported by:
  &#8226;   <a href="#distutils.dist">distutils.dist</a>
  &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
  &#8226;   <a href="#distutils.spawn">distutils.spawn</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
 
   </div>
 
@@ -8735,15 +8788,17 @@ imported by:
  &#8226;   <a href="#numpy.distutils.misc_util">numpy.distutils.misc_util</a>
  &#8226;   <a href="#numpy.distutils.system_info">numpy.distutils.system_info</a>
  &#8226;   <a href="#numpy.distutils.unixccompiler">numpy.distutils.unixccompiler</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
- &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
@@ -8798,6 +8853,7 @@ imported by:
  &#8226;   <a href="#distutils.command.sdist">distutils.command.sdist</a>
  &#8226;   <a href="#distutils.dist">distutils.dist</a>
  &#8226;   <a href="#numpy.distutils.fcompiler">numpy.distutils.fcompiler</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
 
   </div>
 
@@ -8857,7 +8913,6 @@ imports:
 imported by:
     <a href="#distutils.command.sdist">distutils.command.sdist</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
- &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
 
@@ -8913,7 +8968,10 @@ imported by:
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
 
   </div>
 
@@ -9037,8 +9095,6 @@ imported by:
  &#8226;   <a href="#numpy.distutils.fcompiler">numpy.distutils.fcompiler</a>
  &#8226;   <a href="#numpy.distutils.system_info">numpy.distutils.system_info</a>
  &#8226;   <a href="#numpy.distutils.unixccompiler">numpy.distutils.unixccompiler</a>
- &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
 
   </div>
 
@@ -9139,7 +9195,6 @@ imported by:
  &#8226;   <a href="#numpy.distutils.command.build_src">numpy.distutils.command.build_src</a>
  &#8226;   <a href="#numpy.distutils.fcompiler">numpy.distutils.fcompiler</a>
  &#8226;   <a href="#numpy.distutils.system_info">numpy.distutils.system_info</a>
- &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
@@ -9147,6 +9202,7 @@ imported by:
  &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
 
   </div>
 
@@ -9170,6 +9226,7 @@ imported by:
  &#8226;   <a href="#numpy.distutils.ccompiler">numpy.distutils.ccompiler</a>
  &#8226;   <a href="#numpy.distutils.mingw32ccompiler">numpy.distutils.mingw32ccompiler</a>
  &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
 
   </div>
 
@@ -9301,6 +9358,8 @@ imported by:
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
@@ -12362,6 +12421,7 @@ imported by:
  &#8226;   <a href="#multiprocessing.queues">multiprocessing.queues</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#socketserver">socketserver</a>
@@ -12587,15 +12647,17 @@ imported by:
  &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
+ &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#signal">signal</a>
  &#8226;   <a href="#six">six</a>
  &#8226;   <a href="#tempfile">tempfile</a>
@@ -12792,6 +12854,8 @@ imported by:
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
  &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
   </div>
@@ -12950,6 +13014,7 @@ imported by:
     <a href="#cgi">cgi</a>
  &#8226;   <a href="#html.entities">html.entities</a>
  &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
 
   </div>
 
@@ -13010,29 +13075,12 @@ imports:
   <div class="import">
 imported by:
     <a href="#cgi">cgi</a>
- &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#http.server">http.server</a>
- &#8226;   <a href="#urllib.request">urllib.request</a>
- &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="http.client"></a>
-  <a target="code" href="" type="text/plain"><tt>http.client</tt></a>
-<span class="moduletype">AliasNode</span>  <div class="import">
-imports:
-    <a href="#http.client">http.client</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
 
   </div>
 
@@ -13131,7 +13179,6 @@ imported by:
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
  &#8226;   <a href="#numpy.compat.py3k">numpy.compat.py3k</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
 
   </div>
 
@@ -13156,7 +13203,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#imp">imp</a>
+    <a href="#_distutils_hack">_distutils_hack</a>
+ &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
@@ -13168,8 +13216,11 @@ imported by:
  &#8226;   <a href="#matplotlib.backend_bases">matplotlib.backend_bases</a>
  &#8226;   <a href="#matplotlib.backends.backend_qt5">matplotlib.backends.backend_qt5</a>
  &#8226;   <a href="#matplotlib.pyplot">matplotlib.pyplot</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
+ &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
+ &#8226;   <a href="#setuptools.py34compat">setuptools.py34compat</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
 
   </div>
@@ -13238,7 +13289,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#_distutils_hack">_distutils_hack</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
 
@@ -13272,6 +13324,7 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
 
   </div>
 
@@ -13297,6 +13350,7 @@ imports:
 imported by:
     <a href="#PyInstaller.compat">PyInstaller.compat</a>
  &#8226;   <a href="#PyInstaller.depend.utils">PyInstaller.depend.utils</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#distutils.command.build_py">distutils.command.build_py</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
  &#8226;   <a href="#imp">imp</a>
@@ -13304,6 +13358,8 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
+ &#8226;   <a href="#setuptools.py34compat">setuptools.py34compat</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
   </div>
@@ -13364,12 +13420,14 @@ imported by:
  &#8226;   <a href="#numpy.testing._private.parameterized">numpy.testing._private.parameterized</a>
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
  &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#pycparser.ply.lex">pycparser.ply.lex</a>
  &#8226;   <a href="#pycparser.ply.yacc">pycparser.ply.yacc</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
+ &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
 
   </div>
 
@@ -13462,7 +13520,6 @@ imported by:
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#pycparser">pycparser</a>
@@ -13472,7 +13529,10 @@ imported by:
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#six">six</a>
  &#8226;   <a href="#socket">socket</a>
@@ -13560,14 +13620,17 @@ imported by:
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#six">six</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#tokenize">tokenize</a>
@@ -13611,6 +13674,7 @@ imported by:
  &#8226;   <a href="#matplotlib.backends.backend_webagg">matplotlib.backends.backend_webagg</a>
  &#8226;   <a href="#matplotlib.backends.backend_webagg_core">matplotlib.backends.backend_webagg_core</a>
  &#8226;   <a href="#matplotlib.font_manager">matplotlib.font_manager</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
 
   </div>
 
@@ -18638,6 +18702,7 @@ imported by:
     <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -18667,6 +18732,7 @@ imported by:
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pycparser.ply.yacc">pycparser.ply.yacc</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#unittest">unittest</a>
@@ -23849,7 +23915,6 @@ imported by:
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#six">six</a>
@@ -23886,6 +23951,7 @@ imported by:
 imported by:
     <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
 
   </div>
 
@@ -23971,6 +24037,7 @@ imported by:
  &#8226;   <a href="#PyInstaller.utils.win32.winmanifest">PyInstaller.utils.win32.winmanifest</a>
  &#8226;   <a href="#PyInstaller.utils.win32.winutils">PyInstaller.utils.win32.winutils</a>
  &#8226;   <a href="#PyQt5">PyQt5</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
@@ -23982,6 +24049,7 @@ imported by:
  &#8226;   <a href="#bleak">bleak</a>
  &#8226;   <a href="#bleak.backends.bluezdbus.client">bleak.backends.bluezdbus.client</a>
  &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#certifi.core">certifi.core</a>
  &#8226;   <a href="#cffi.api">cffi.api</a>
  &#8226;   <a href="#cffi.ffiplatform">cffi.ffiplatform</a>
  &#8226;   <a href="#cffi.pkgconfig">cffi.pkgconfig</a>
@@ -24147,11 +24215,13 @@ imported by:
  &#8226;   <a href="#pycparser.ply.lex">pycparser.ply.lex</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_certifi.py">pyi_rth_certifi.py</a>
  &#8226;   <a href="#pyi_rth_mplconfig.py">pyi_rth_mplconfig.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyi_rth_pyqt5.py">pyi_rth_pyqt5.py</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
@@ -24161,12 +24231,16 @@ imported by:
  &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.glob">setuptools.glob</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
@@ -24276,6 +24350,7 @@ imported by:
  &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
 
   </div>
 
@@ -24348,21 +24423,22 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/__init__.py" type="text/plain"><tt>pkg_resources</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/__init__.py" type="text/plain"><tt>pkg_resources</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
-    <a href="#'pkg_resources.extern.six.moves'">'pkg_resources.extern.six.moves'</a>
- &#8226;   <a href="#__future__">__future__</a>
- &#8226;   <a href="#_imp">_imp</a>
+    <a href="#_imp">_imp</a>
  &#8226;   <a href="#collections">collections</a>
- &#8226;   <a href="#distutils.util">distutils.util</a>
  &#8226;   <a href="#email.parser">email.parser</a>
+ &#8226;   <a href="#errno">errno</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
@@ -24378,14 +24454,13 @@ imports:
  &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
  &#8226;   <a href="#pkg_resources.extern.appdirs">pkg_resources.extern.appdirs</a>
  &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
- &#8226;   <a href="#pkg_resources.extern.six">pkg_resources.extern.six</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#plistlib">plistlib</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#stat">stat</a>
  &#8226;   <a href="#sys">sys</a>
@@ -24418,10 +24493,12 @@ imported by:
  &#8226;   <a href="#setuptools.command.install_scripts">setuptools.command.install_scripts</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#setuptools.version">setuptools.version</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
 
   </div>
 
@@ -24429,7 +24506,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/__init__.py" type="text/plain"><tt>pkg_resources._vendor</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/__init__.py" type="text/plain"><tt>pkg_resources._vendor</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#pkg_resources">pkg_resources</a>
@@ -24441,7 +24518,6 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
 
   </div>
 
@@ -24449,7 +24525,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.appdirs"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/appdirs.py" type="text/plain"><tt>pkg_resources._vendor.appdirs</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/appdirs.py" type="text/plain"><tt>pkg_resources._vendor.appdirs</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'com.sun'">'com.sun'</a>
@@ -24463,6 +24539,7 @@ imports:
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#win32api">win32api</a>
  &#8226;   <a href="#win32com.shell">win32com.shell</a>
+ &#8226;   <a href="#winreg">winreg</a>
 
   </div>
   <div class="import">
@@ -24475,7 +24552,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/__init__.py" type="text/plain"><tt>pkg_resources._vendor.packaging</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/__init__.py" type="text/plain"><tt>pkg_resources._vendor.packaging</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
@@ -24489,6 +24566,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.packaging.__about__">pkg_resources._vendor.packaging.__about__</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
@@ -24501,7 +24579,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging.__about__"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/__about__.py" type="text/plain"><tt>pkg_resources._vendor.packaging.__about__</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/__about__.py" type="text/plain"><tt>pkg_resources._vendor.packaging.__about__</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
@@ -24519,12 +24597,14 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging._compat"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/_compat.py" type="text/plain"><tt>pkg_resources._vendor.packaging._compat</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/_compat.py" type="text/plain"><tt>pkg_resources._vendor.packaging._compat</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
  &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -24539,7 +24619,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging._structures"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/_structures.py" type="text/plain"><tt>pkg_resources._vendor.packaging._structures</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/_structures.py" type="text/plain"><tt>pkg_resources._vendor.packaging._structures</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
@@ -24556,8 +24636,30 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="pkg_resources._vendor.packaging._typing"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/_typing.py" type="text/plain"><tt>pkg_resources._vendor.packaging._typing</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="pkg_resources._vendor.packaging.markers"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/markers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.markers</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/markers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.markers</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'pkg_resources.extern.pyparsing'">'pkg_resources.extern.pyparsing'</a>
@@ -24566,9 +24668,11 @@ imports:
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -24582,17 +24686,20 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging.requirements"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/requirements.py" type="text/plain"><tt>pkg_resources._vendor.packaging.requirements</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/requirements.py" type="text/plain"><tt>pkg_resources._vendor.packaging.requirements</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'pkg_resources.extern.pyparsing'">'pkg_resources.extern.pyparsing'</a>
- &#8226;   <a href="#'pkg_resources.extern.six.moves'">'pkg_resources.extern.six.moves'</a>
  &#8226;   <a href="#__future__">__future__</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#urllib">urllib</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
 
   </div>
   <div class="import">
@@ -24605,7 +24712,7 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging.specifiers"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/specifiers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.specifiers</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/specifiers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.specifiers</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
@@ -24614,8 +24721,11 @@ imports:
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
  &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -24630,33 +24740,15 @@ imported by:
 
 <div class="node">
   <a name="pkg_resources._vendor.packaging.utils"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/utils.py" type="text/plain"><tt>pkg_resources._vendor.packaging.utils</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/utils.py" type="text/plain"><tt>pkg_resources._vendor.packaging.utils</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__future__">__future__</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
  &#8226;   <a href="#re">re</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#pkg_resources">pkg_resources</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="pkg_resources._vendor.packaging.version"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/packaging/version.py" type="text/plain"><tt>pkg_resources._vendor.packaging.version</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#__future__">__future__</a>
- &#8226;   <a href="#collections">collections</a>
- &#8226;   <a href="#itertools">itertools</a>
- &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
- &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
- &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -24669,13 +24761,39 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="pkg_resources._vendor.packaging.version"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/packaging/version.py" type="text/plain"><tt>pkg_resources._vendor.packaging.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="pkg_resources._vendor.pyparsing"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/pyparsing.py" type="text/plain"><tt>pkg_resources._vendor.pyparsing</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/_vendor/pyparsing.py" type="text/plain"><tt>pkg_resources._vendor.pyparsing</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#__builtin__">__builtin__</a>
  &#8226;   <a href="#_thread">_thread</a>
  &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#copy">copy</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#ordereddict">ordereddict</a>
@@ -24703,50 +24821,19 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="pkg_resources._vendor.six"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/_vendor/six.py" type="text/plain"><tt>pkg_resources._vendor.six</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#StringIO">StringIO</a>
- &#8226;   <a href="#__future__">__future__</a>
- &#8226;   <a href="#functools">functools</a>
- &#8226;   <a href="#io">io</a>
- &#8226;   <a href="#itertools">itertools</a>
- &#8226;   <a href="#operator">operator</a>
- &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
- &#8226;   <a href="#struct">struct</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#types">types</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#pkg_resources">pkg_resources</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="pkg_resources.extern"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/pkg_resources/extern/__init__.py" type="text/plain"><tt>pkg_resources.extern</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/pkg_resources/extern/__init__.py" type="text/plain"><tt>pkg_resources.extern</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources.extern.appdirs">pkg_resources.extern.appdirs</a>
  &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
- &#8226;   <a href="#pkg_resources.extern.six">pkg_resources.extern.six</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
- &#8226;   <a href="#pkg_resources.extern.six">pkg_resources.extern.six</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
 
   </div>
 
@@ -24768,30 +24855,6 @@ imported by:
   <a name="pkg_resources.extern.packaging"></a>
   <a target="code" href="" type="text/plain"><tt>pkg_resources.extern.packaging</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
-imports:
-    <a href="#pkg_resources.extern">pkg_resources.extern</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="pkg_resources.extern.six"></a>
-  <a target="code" href="" type="text/plain"><tt>pkg_resources.extern.six</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imports:
-    <a href="#pkg_resources.extern">pkg_resources.extern</a>
-
-  </div>
-  <div class="import">
 imported by:
     <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
@@ -24946,7 +25009,9 @@ imported by:
  &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#xml.dom.xmlbuilder">xml.dom.xmlbuilder</a>
 
@@ -24985,6 +25050,7 @@ imported by:
  &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#unittest.case">unittest.case</a>
 
@@ -25533,6 +25599,7 @@ imported by:
  &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
  &#8226;   <a href="#PyInstaller.utils.hooks.gi">PyInstaller.utils.hooks.gi</a>
  &#8226;   <a href="#__main__">__main__</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#_sre">_sre</a>
@@ -25664,6 +25731,9 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
+ &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
@@ -25672,6 +25742,7 @@ imported by:
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#string">string</a>
@@ -25836,23 +25907,30 @@ imported by:
 
 <div class="node">
   <a name="setuptools"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/__init__.py" type="text/plain"><tt>setuptools</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/__init__.py" type="text/plain"><tt>setuptools</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
-    <a href="#'setuptools.extern.six'">'setuptools.extern.six'</a>
+    <a href="#_distutils_hack.override">_distutils_hack.override</a>
  &#8226;   <a href="#distutils.command.build_ext">distutils.command.build_ext</a>
  &#8226;   <a href="#distutils.core">distutils.core</a>
- &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._deprecation_warning">setuptools._deprecation_warning</a>
+ &#8226;   <a href="#setuptools._vendor">setuptools._vendor</a>
+ &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+ &#8226;   <a href="#setuptools._vendor.packaging">setuptools._vendor.packaging</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#setuptools.version">setuptools.version</a>
  &#8226;   <a href="#setuptools.windows_support">setuptools.windows_support</a>
@@ -25863,6 +25941,9 @@ imported by:
     <a href="#cffi.ffiplatform">cffi.ffiplatform</a>
  &#8226;   <a href="#numpy.distutils.core">numpy.distutils.core</a>
  &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._deprecation_warning">setuptools._deprecation_warning</a>
+ &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
+ &#8226;   <a href="#setuptools._vendor">setuptools._vendor</a>
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
@@ -25871,21 +25952,23 @@ imported by:
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
  &#8226;   <a href="#setuptools.glob">setuptools.glob</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
- &#8226;   <a href="#setuptools.py27compat">setuptools.py27compat</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
+ &#8226;   <a href="#setuptools.py34compat">setuptools.py34compat</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
  &#8226;   <a href="#setuptools.version">setuptools.version</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#setuptools.windows_support">setuptools.windows_support</a>
 
   </div>
@@ -25893,8 +25976,153 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="setuptools._deprecation_warning"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_deprecation_warning.py" type="text/plain"><tt>setuptools._deprecation_warning</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#setuptools">setuptools</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._imp"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_imp.py" type="text/plain"><tt>setuptools._imp</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.py34compat">setuptools.py34compat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools.depends">setuptools.depends</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._vendor"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_vendor/__init__.py" type="text/plain"><tt>setuptools._vendor</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#setuptools">setuptools</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
+ &#8226;   <a href="#setuptools._vendor.packaging">setuptools._vendor.packaging</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._vendor.ordered_set"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_vendor/ordered_set.py" type="text/plain"><tt>setuptools._vendor.ordered_set</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#setuptools._vendor">setuptools._vendor</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._vendor.packaging"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_vendor/packaging/__init__.py" type="text/plain"><tt>setuptools._vendor.packaging</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#setuptools._vendor">setuptools._vendor</a>
+ &#8226;   <a href="#setuptools._vendor.packaging.__about__">setuptools._vendor.packaging.__about__</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools._vendor.packaging.__about__">setuptools._vendor.packaging.__about__</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._vendor.packaging.__about__"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_vendor/packaging/__about__.py" type="text/plain"><tt>setuptools._vendor.packaging.__about__</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#setuptools._vendor.packaging">setuptools._vendor.packaging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools._vendor.packaging">setuptools._vendor.packaging</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools._vendor.pyparsing"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/_vendor/pyparsing.py" type="text/plain"><tt>setuptools._vendor.pyparsing</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__builtin__">__builtin__</a>
+ &#8226;   <a href="#_thread">_thread</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#ordereddict">ordereddict</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#setuptools._vendor">setuptools._vendor</a>
+ &#8226;   <a href="#sre_constants">sre_constants</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#uuid">uuid</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#weakref">weakref</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="setuptools.archive_util"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/archive_util.py" type="text/plain"><tt>setuptools.archive_util</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/archive_util.py" type="text/plain"><tt>setuptools.archive_util</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#contextlib">contextlib</a>
@@ -25918,7 +26146,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/__init__.py" type="text/plain"><tt>setuptools.command</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/__init__.py" type="text/plain"><tt>setuptools.command</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#distutils.command.bdist">distutils.command.bdist</a>
@@ -25952,22 +26180,19 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.bdist_egg"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/bdist_egg.py" type="text/plain"><tt>setuptools.command.bdist_egg</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/bdist_egg.py" type="text/plain"><tt>setuptools.command.bdist_egg</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils">distutils</a>
  &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
- &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
- &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#marshal">marshal</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.extension">setuptools.extension</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#textwrap">textwrap</a>
@@ -25988,7 +26213,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.bdist_rpm"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/bdist_rpm.py" type="text/plain"><tt>setuptools.command.bdist_rpm</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/bdist_rpm.py" type="text/plain"><tt>setuptools.command.bdist_rpm</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils.command.bdist_rpm">distutils.command.bdist_rpm</a>
@@ -26005,7 +26230,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.develop"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/develop.py" type="text/plain"><tt>setuptools.command.develop</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/develop.py" type="text/plain"><tt>setuptools.command.develop</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils">distutils</a>
@@ -26019,8 +26244,7 @@ imports:
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
+ &#8226;   <a href="#setuptools.namespaces">setuptools.namespaces</a>
 
   </div>
   <div class="import">
@@ -26033,7 +26257,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.easy_install"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/easy_install.py" type="text/plain"><tt>setuptools.command.easy_install</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/easy_install.py" type="text/plain"><tt>setuptools.command.easy_install</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#configparser">configparser</a>
@@ -26041,7 +26265,6 @@ imports:
  &#8226;   <a href="#distutils">distutils</a>
  &#8226;   <a href="#distutils.command.build_scripts">distutils.command.build_scripts</a>
  &#8226;   <a href="#distutils.command.install">distutils.command.install</a>
- &#8226;   <a href="#distutils.core">distutils.core</a>
  &#8226;   <a href="#distutils.dir_util">distutils.dir_util</a>
  &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.file_util">distutils.file_util</a>
@@ -26060,14 +26283,9 @@ imports:
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#site">site</a>
@@ -26075,6 +26293,7 @@ imports:
  &#8226;   <a href="#struct">struct</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#textwrap">textwrap</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -26087,7 +26306,6 @@ imported by:
     <a href="#numpy.distutils.core">numpy.distutils.core</a>
  &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
  &#8226;   <a href="#setuptools.command.install_scripts">setuptools.command.install_scripts</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
 
   </div>
@@ -26096,7 +26314,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.egg_info"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/egg_info.py" type="text/plain"><tt>setuptools.command.egg_info</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/egg_info.py" type="text/plain"><tt>setuptools.command.egg_info</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#collections">collections</a>
@@ -26105,11 +26323,10 @@ imports:
  &#8226;   <a href="#distutils.filelist">distutils.filelist</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
@@ -26117,12 +26334,9 @@ imports:
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
  &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
+ &#8226;   <a href="#setuptools.extern.packaging">setuptools.extern.packaging</a>
  &#8226;   <a href="#setuptools.glob">setuptools.glob</a>
  &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
- &#8226;   <a href="#setuptools_svn">setuptools_svn</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#time">time</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -26133,6 +26347,7 @@ imported by:
     <a href="#numpy.distutils.command.egg_info">numpy.distutils.command.egg_info</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
 
   </div>
 
@@ -26140,7 +26355,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.install"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/install.py" type="text/plain"><tt>setuptools.command.install</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/install.py" type="text/plain"><tt>setuptools.command.install</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils.command.install">distutils.command.install</a>
@@ -26163,7 +26378,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.install_scripts"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/install_scripts.py" type="text/plain"><tt>setuptools.command.install_scripts</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/install_scripts.py" type="text/plain"><tt>setuptools.command.install_scripts</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils">distutils</a>
@@ -26186,7 +26401,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.py36compat"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/py36compat.py" type="text/plain"><tt>setuptools.command.py36compat</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/py36compat.py" type="text/plain"><tt>setuptools.command.py36compat</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils.command">distutils.command</a>
@@ -26195,8 +26410,6 @@ imports:
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.filter">setuptools.extern.six.moves.filter</a>
 
   </div>
   <div class="import">
@@ -26209,12 +26422,11 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.sdist"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/sdist.py" type="text/plain"><tt>setuptools.command.sdist</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/sdist.py" type="text/plain"><tt>setuptools.command.sdist</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#distutils">distutils</a>
- &#8226;   <a href="#distutils.command">distutils.command</a>
  &#8226;   <a href="#distutils.command.sdist">distutils.command.sdist</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
  &#8226;   <a href="#io">io</a>
@@ -26223,7 +26435,7 @@ imports:
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
+ &#8226;   <a href="#setuptools.extern.ordered_set">setuptools.extern.ordered_set</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
@@ -26238,7 +26450,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.command.setopt"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/command/setopt.py" type="text/plain"><tt>setuptools.command.setopt</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/command/setopt.py" type="text/plain"><tt>setuptools.command.setopt</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#configparser">configparser</a>
@@ -26249,7 +26461,6 @@ imports:
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
 
   </div>
   <div class="import">
@@ -26263,25 +26474,51 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="setuptools.depends"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/depends.py" type="text/plain"><tt>setuptools.depends</tt></a>
+  <a name="setuptools.config"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/config.py" type="text/plain"><tt>setuptools.config</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#array">array</a>
+    <a href="#'setuptools.extern.packaging.specifiers'">'setuptools.extern.packaging.specifiers'</a>
+ &#8226;   <a href="#'setuptools.extern.packaging.version'">'setuptools.extern.packaging.version'</a>
+ &#8226;   <a href="#ast">ast</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools.dist">setuptools.dist</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools.depends"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/depends.py" type="text/plain"><tt>setuptools.depends</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#distutils.version">distutils.version</a>
- &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#marshal">marshal</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
+ &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
  &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
 
   </div>
 
@@ -26289,29 +26526,33 @@ imported by:
 
 <div class="node">
   <a name="setuptools.dist"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/dist.py" type="text/plain"><tt>setuptools.dist</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/dist.py" type="text/plain"><tt>setuptools.dist</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#distutils.cmd">distutils.cmd</a>
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#configparser">configparser</a>
+ &#8226;   <a href="#distutils.cmd">distutils.cmd</a>
  &#8226;   <a href="#distutils.core">distutils.core</a>
+ &#8226;   <a href="#distutils.debug">distutils.debug</a>
  &#8226;   <a href="#distutils.dist">distutils.dist</a>
  &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.fancy_getopt">distutils.fancy_getopt</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
  &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#distutils.version">distutils.version</a>
+ &#8226;   <a href="#email">email</a>
  &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#numbers">numbers</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
- &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
+ &#8226;   <a href="#setuptools.extern.ordered_set">setuptools.extern.ordered_set</a>
+ &#8226;   <a href="#setuptools.extern.packaging">setuptools.extern.packaging</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#setuptools.windows_support">setuptools.windows_support</a>
  &#8226;   <a href="#shlex">shlex</a>
@@ -26322,7 +26563,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
 
   </div>
 
@@ -26330,11 +26571,10 @@ imported by:
 
 <div class="node">
   <a name="setuptools.extension"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/extension.py" type="text/plain"><tt>setuptools.extension</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/extension.py" type="text/plain"><tt>setuptools.extension</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'setuptools.extern.six'">'setuptools.extern.six'</a>
- &#8226;   <a href="#distutils.core">distutils.core</a>
+    <a href="#distutils.core">distutils.core</a>
  &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.extension">distutils.extension</a>
  &#8226;   <a href="#functools">functools</a>
@@ -26354,36 +26594,42 @@ imported by:
 
 <div class="node">
   <a name="setuptools.extern"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/extern/__init__.py" type="text/plain"><tt>setuptools.extern</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/extern/__init__.py" type="text/plain"><tt>setuptools.extern</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
-    <a href="#pkg_resources.extern">pkg_resources.extern</a>
- &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
+    <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.extern.ordered_set">setuptools.extern.ordered_set</a>
+ &#8226;   <a href="#setuptools.extern.packaging">setuptools.extern.packaging</a>
+ &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
- &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
- &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
+    <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
- &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
- &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
+ &#8226;   <a href="#setuptools.extern.packaging">setuptools.extern.packaging</a>
 
   </div>
 
 </div>
 
 <div class="node">
-  <a name="setuptools.extern.six"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools.extern.six</tt></a>
+  <a name="setuptools.extern.ordered_set"></a>
+  <a target="code" href="" type="text/plain"><tt>setuptools.extern.ordered_set</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
+ &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools.extern.packaging"></a>
+  <a target="code" href="" type="text/plain"><tt>setuptools.extern.packaging</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imports:
     <a href="#setuptools.extern">setuptools.extern</a>
@@ -26391,93 +26637,9 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
- &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
- &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
- &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
- &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
+    <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.glob">setuptools.glob</a>
- &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
- &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools.extern.six.moves"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools.extern.six.moves</tt></a>
-<span class="moduletype">RuntimePackage</span>  <div class="import">
-imports:
-    <a href="#'pkg_resources._vendor.six.moves'">'pkg_resources._vendor.six.moves'</a>
- &#8226;   <a href="#builtins">builtins</a>
- &#8226;   <a href="#configparser">configparser</a>
- &#8226;   <a href="#http.client">http.client</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves.filter">setuptools.extern.six.moves.filter</a>
- &#8226;   <a href="#setuptools.extern.six.moves.filterfalse">setuptools.extern.six.moves.filterfalse</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
- &#8226;   <a href="#winreg">winreg</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
- &#8226;   <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
- &#8226;   <a href="#setuptools.command.setopt">setuptools.command.setopt</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
- &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
- &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools.extern.six.moves.filter"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools.extern.six.moves.filter</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.command.py36compat">setuptools.command.py36compat</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools.extern.six.moves.filterfalse"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools.extern.six.moves.filterfalse</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools.extern.six.moves.map"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools.extern.six.moves.map</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
- &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
- &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
 
   </div>
 
@@ -26485,14 +26647,13 @@ imported by:
 
 <div class="node">
   <a name="setuptools.glob"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/glob.py" type="text/plain"><tt>setuptools.glob</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/glob.py" type="text/plain"><tt>setuptools.glob</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
 
   </div>
   <div class="import">
@@ -26504,17 +26665,42 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="setuptools.installer"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/installer.py" type="text/plain"><tt>setuptools.installer</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools.dist">setuptools.dist</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="setuptools.monkey"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/monkey.py" type="text/plain"><tt>setuptools.monkey</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/monkey.py" type="text/plain"><tt>setuptools.monkey</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#distutils.filelist">distutils.filelist</a>
  &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
 
@@ -26532,19 +26718,23 @@ imported by:
 
 <div class="node">
   <a name="setuptools.msvc"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/msvc.py" type="text/plain"><tt>setuptools.msvc</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/msvc.py" type="text/plain"><tt>setuptools.msvc</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'pkg_resources.extern.packaging.version'">'pkg_resources.extern.packaging.version'</a>
+    <a href="#'setuptools.extern.packaging.version'">'setuptools.extern.packaging.version'</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.msvc9compiler">distutils.msvc9compiler</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#json">json</a>
+ &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.filterfalse">setuptools.extern.six.moves.filterfalse</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#winreg">winreg</a>
 
@@ -26558,12 +26748,32 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="setuptools.package_index"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/package_index.py" type="text/plain"><tt>setuptools.package_index</tt></a>
+  <a name="setuptools.namespaces"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/namespaces.py" type="text/plain"><tt>setuptools.namespaces</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'pkg_resources._vendor.six.moves'">'pkg_resources._vendor.six.moves'</a>
- &#8226;   <a href="#base64">base64</a>
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="setuptools.package_index"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/package_index.py" type="text/plain"><tt>setuptools.package_index</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#base64">base64</a>
  &#8226;   <a href="#configparser">configparser</a>
  &#8226;   <a href="#distutils">distutils</a>
  &#8226;   <a href="#distutils.errors">distutils.errors</a>
@@ -26571,24 +26781,24 @@ imports:
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#hashlib">hashlib</a>
+ &#8226;   <a href="#html">html</a>
  &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.error">urllib.error</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
- &#8226;   <a href="#urllib2">urllib2</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#warnings">warnings</a>
 
   </div>
   <div class="import">
@@ -26600,44 +26810,18 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="setuptools.py26compat"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/py26compat.py" type="text/plain"><tt>setuptools.py26compat</tt></a>
+  <a name="setuptools.py34compat"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/py34compat.py" type="text/plain"><tt>setuptools.py34compat</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#urllib">urllib</a>
- &#8226;   <a href="#urllib.parse">urllib.parse</a>
- &#8226;   <a href="#urllib.splittag">urllib.splittag</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#setuptools.monkey">setuptools.monkey</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools.py31compat"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/py31compat.py" type="text/plain"><tt>setuptools.py31compat</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#distutils.sysconfig">distutils.sysconfig</a>
- &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#shutil">shutil</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#sysconfig">sysconfig</a>
- &#8226;   <a href="#tempfile">tempfile</a>
- &#8226;   <a href="#unittest">unittest</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+    <a href="#setuptools._imp">setuptools._imp</a>
 
   </div>
 
@@ -26645,7 +26829,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.sandbox"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/sandbox.py" type="text/plain"><tt>setuptools.sandbox</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/sandbox.py" type="text/plain"><tt>setuptools.sandbox</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'org.python'">'org.python'</a>
@@ -26660,14 +26844,10 @@ imports:
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#tempfile">tempfile</a>
- &#8226;   <a href="#win32com.client.gencache">win32com.client.gencache</a>
+ &#8226;   <a href="#textwrap">textwrap</a>
 
   </div>
   <div class="import">
@@ -26681,23 +26861,21 @@ imported by:
 
 <div class="node">
   <a name="setuptools.ssl_support"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/ssl_support.py" type="text/plain"><tt>setuptools.ssl_support</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/ssl_support.py" type="text/plain"><tt>setuptools.ssl_support</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#'backports.ssl_match_hostname'">'backports.ssl_match_hostname'</a>
- &#8226;   <a href="#'pkg_resources._vendor.six.moves'">'pkg_resources._vendor.six.moves'</a>
  &#8226;   <a href="#atexit">atexit</a>
  &#8226;   <a href="#backports">backports</a>
- &#8226;   <a href="#certifi">certifi</a>
+ &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.extern.six.moves.map">setuptools.extern.six.moves.map</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#wincertstore">wincertstore</a>
 
   </div>
@@ -26712,12 +26890,10 @@ imported by:
 
 <div class="node">
   <a name="setuptools.unicode_utils"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/unicode_utils.py" type="text/plain"><tt>setuptools.unicode_utils</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/unicode_utils.py" type="text/plain"><tt>setuptools.unicode_utils</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#setuptools">setuptools</a>
- &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
- &#8226;   <a href="#setuptools.extern.six">setuptools.extern.six</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#unicodedata">unicodedata</a>
 
@@ -26732,7 +26908,7 @@ imported by:
 
 <div class="node">
   <a name="setuptools.version"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/version.py" type="text/plain"><tt>setuptools.version</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/version.py" type="text/plain"><tt>setuptools.version</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#pkg_resources">pkg_resources</a>
@@ -26748,8 +26924,39 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="setuptools.wheel"></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/wheel.py" type="text/plain"><tt>setuptools.wheel</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'setuptools.extern.packaging.tags'">'setuptools.extern.packaging.tags'</a>
+ &#8226;   <a href="#'setuptools.extern.packaging.utils'">'setuptools.extern.packaging.utils'</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.util">distutils.util</a>
+ &#8226;   <a href="#email">email</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#setuptools">setuptools</a>
+ &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
+ &#8226;   <a href="#zipfile">zipfile</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="setuptools.windows_support"></a>
-  <a target="code" href="///C:/users/credo/appdata/local/programs/python/python36/lib/site-packages/setuptools/windows_support.py" type="text/plain"><tt>setuptools.windows_support</tt></a>
+  <a target="code" href="///C:/Users/credo/AppData/Roaming/Python/Python36/site-packages/setuptools/windows_support.py" type="text/plain"><tt>setuptools.windows_support</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#ctypes">ctypes</a>
@@ -26761,17 +26968,6 @@ imports:
 imported by:
     <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="setuptools_svn"></a>
-  <a target="code" href="" type="text/plain"><tt>setuptools_svn</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
 
   </div>
 
@@ -26881,7 +27077,6 @@ imported by:
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#uuid">uuid</a>
@@ -27154,6 +27349,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
 
@@ -27208,6 +27404,7 @@ imported by:
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#matplotlib">matplotlib</a>
+ &#8226;   <a href="#pyi_rth_certifi.py">pyi_rth_certifi.py</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
@@ -27277,6 +27474,7 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
@@ -27348,7 +27546,6 @@ imported by:
  &#8226;   <a href="#numpy.lib.format">numpy.lib.format</a>
  &#8226;   <a href="#pefile">pefile</a>
  &#8226;   <a href="#pickle">pickle</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
@@ -27455,6 +27652,8 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
@@ -27502,6 +27701,7 @@ imported by:
  &#8226;   <a href="#__main__">__main__</a>
  &#8226;   <a href="#_bootlocale">_bootlocale</a>
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#argparse">argparse</a>
@@ -27702,7 +27902,6 @@ imported by:
  &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
  &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
@@ -27715,26 +27914,28 @@ imported by:
  &#8226;   <a href="#pycparser.ply.yacc">pycparser.ply.yacc</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_certifi.py">pyi_rth_certifi.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyi_rth_pyqt5.py">pyi_rth_pyqt5.py</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#selectors">selectors</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#setuptools.command">setuptools.command</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.install_scripts">setuptools.command.install_scripts</a>
  &#8226;   <a href="#setuptools.command.sdist">setuptools.command.sdist</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.depends">setuptools.depends</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
- &#8226;   <a href="#setuptools.py27compat">setuptools.py27compat</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
  &#8226;   <a href="#shlex">shlex</a>
@@ -27803,7 +28004,7 @@ imported by:
  &#8226;   <a href="#cffi.api">cffi.api</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
+ &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
 
   </div>
 
@@ -27899,7 +28100,7 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_mplconfig.py">pyi_rth_mplconfig.py</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
+ &#8226;   <a href="#setuptools.installer">setuptools.installer</a>
  &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#urllib.response">urllib.response</a>
@@ -27951,6 +28152,7 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.sandbox">setuptools.sandbox</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
@@ -28026,6 +28228,7 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#queue">queue</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#zipfile">zipfile</a>
@@ -28310,6 +28513,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#PyInstaller.depend.analysis">PyInstaller.depend.analysis</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_dummy_thread">_dummy_thread</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.base_tasks">asyncio.base_tasks</a>
@@ -28337,6 +28541,7 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#tkinter">tkinter</a>
@@ -28457,7 +28662,6 @@ imported by:
  &#8226;   <a href="#pickle">pickle</a>
  &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
- &#8226;   <a href="#pkg_resources._vendor.six">pkg_resources._vendor.six</a>
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#pycparser.ply.lex">pycparser.ply.lex</a>
@@ -28465,6 +28669,7 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.monkey">setuptools.monkey</a>
  &#8226;   <a href="#six">six</a>
@@ -28515,6 +28720,13 @@ imported by:
  &#8226;   <a href="#bleak.backends.dotnet.service">bleak.backends.dotnet.service</a>
  &#8226;   <a href="#bleak.backends.scanner">bleak.backends.scanner</a>
  &#8226;   <a href="#bleak.backends.service">bleak.backends.service</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._compat">pkg_resources._vendor.packaging._compat</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._typing">pkg_resources._vendor.packaging._typing</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
 
   </div>
 
@@ -28556,7 +28768,6 @@ imported by:
  &#8226;   <a href="#numpy.testing">numpy.testing</a>
  &#8226;   <a href="#numpy.testing._private.parameterized">numpy.testing._private.parameterized</a>
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
- &#8226;   <a href="#setuptools.py31compat">setuptools.py31compat</a>
  &#8226;   <a href="#unittest">unittest</a>
  &#8226;   <a href="#unittest.case">unittest.case</a>
  &#8226;   <a href="#unittest.loader">unittest.loader</a>
@@ -28766,7 +28977,6 @@ imported by:
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#urllib.pathname2url">urllib.pathname2url</a>
- &#8226;   <a href="#urllib.splittag">urllib.splittag</a>
 
   </div>
   <div class="import">
@@ -28774,7 +28984,7 @@ imported by:
     <a href="#PyInstaller.lib.modulegraph._compat">PyInstaller.lib.modulegraph._compat</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
  &#8226;   <a href="#matplotlib.image">matplotlib.image</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
  &#8226;   <a href="#urllib.error">urllib.error</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
@@ -28796,6 +29006,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#numpy.lib._datasource">numpy.lib._datasource</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
@@ -28826,9 +29037,9 @@ imported by:
  &#8226;   <a href="#nturl2path">nturl2path</a>
  &#8226;   <a href="#numpy.lib._datasource">numpy.lib._datasource</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
- &#8226;   <a href="#setuptools.py26compat">setuptools.py26compat</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#xml.dom.xmlbuilder">xml.dom.xmlbuilder</a>
  &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
@@ -28895,6 +29106,8 @@ imported by:
  &#8226;   <a href="#matplotlib">matplotlib</a>
  &#8226;   <a href="#matplotlib.image">matplotlib.image</a>
  &#8226;   <a href="#numpy.lib._datasource">numpy.lib._datasource</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
+ &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#xml.dom.xmlbuilder">xml.dom.xmlbuilder</a>
  &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
 
@@ -28921,24 +29134,11 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="urllib.splittag"></a>
-  <a target="code" href="" type="text/plain"><tt>urllib.splittag</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.py26compat">setuptools.py26compat</a>
- &#8226;   <a href="#urllib">urllib</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="urllib2"></a>
   <a target="code" href="" type="text/plain"><tt>urllib2</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#numpy.lib._datasource">numpy.lib._datasource</a>
- &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
 
   </div>
 
@@ -29014,6 +29214,7 @@ imported by:
  &#8226;   <a href="#matplotlib.backends.backend_svg">matplotlib.backends.backend_svg</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
 
   </div>
 
@@ -29056,6 +29257,7 @@ imported by:
  &#8226;   <a href="#PyInstaller.lib.modulegraph.find_modules">PyInstaller.lib.modulegraph.find_modules</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.modulegraph">PyInstaller.lib.modulegraph.modulegraph</a>
  &#8226;   <a href="#PyInstaller.lib.modulegraph.util">PyInstaller.lib.modulegraph.util</a>
+ &#8226;   <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#asyncio.base_events">asyncio.base_events</a>
  &#8226;   <a href="#asyncio.base_subprocess">asyncio.base_subprocess</a>
  &#8226;   <a href="#asyncio.proactor_events">asyncio.proactor_events</a>
@@ -29171,10 +29373,13 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
+ &#8226;   <a href="#setuptools.config">setuptools.config</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
+ &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#string">string</a>
@@ -29242,6 +29447,7 @@ imported by:
  &#8226;   <a href="#numpy.lib.npyio">numpy.lib.npyio</a>
  &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#unittest.signals">unittest.signals</a>
  &#8226;   <a href="#win32ctypes.core.cffi._authentication">win32ctypes.core.cffi._authentication</a>
@@ -29286,17 +29492,6 @@ imported by:
 imported by:
     <a href="#distutils.msvccompiler">distutils.msvccompiler</a>
  &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="win32com.client.gencache"></a>
-  <a target="code" href="" type="text/plain"><tt>win32com.client.gencache</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#setuptools.sandbox">setuptools.sandbox</a>
 
   </div>
 
@@ -29367,23 +29562,6 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#setuptools.extern.six.moves">setuptools.extern.six.moves</a>
- &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="winreg"></a>
-  <a target="code" href="" type="text/plain"><tt>winreg</tt></a>
-<span class="moduletype">AliasNode</span>  <div class="import">
-imports:
-    <a href="#winreg">winreg</a>
-
-  </div>
-  <div class="import">
-imported by:
     <a href="#dateutil.tz.win">dateutil.tz.win</a>
  &#8226;   <a href="#six.moves">six.moves</a>
 
@@ -29402,9 +29580,10 @@ imported by:
  &#8226;   <a href="#matplotlib.font_manager">matplotlib.font_manager</a>
  &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#numpy.distutils.cpuinfo">numpy.distutils.cpuinfo</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
- &#8226;   <a href="#winreg">winreg</a>
  &#8226;   <a href="#winreg">winreg</a>
 
   </div>
@@ -29806,6 +29985,7 @@ imported by:
  &#8226;   <a href="#setuptools.archive_util">setuptools.archive_util</a>
  &#8226;   <a href="#setuptools.command.bdist_egg">setuptools.command.bdist_egg</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
+ &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shutil">shutil</a>
 
   </div>

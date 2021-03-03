@@ -46,7 +46,7 @@ class ScanPage(Ui_ScanWindow, ):
             for device in self.devices:
                 # formatting device name to show in list widget
                 deviceName = f"\n{device.name}\n"
-                if 'credosense' in deviceName.lower():  # showing only credosense devices
+                if 'cs' in deviceName.lower():  # showing only credosense devices
                     # Adding device name address to list widget
                     self.devicelist.addItem(deviceName)
 
@@ -54,7 +54,7 @@ class ScanPage(Ui_ScanWindow, ):
                     pass
             # If there is no device found
             if len(self.devicelist) == 0:
-                self.devicelist.addItem("No CredoSense SRC-5 found")
+                self.devicelist.addItem("No CS-RC5 found")
             # getting selected device from among the devices
 
         except Exception:

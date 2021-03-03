@@ -12,8 +12,7 @@ class Ui_Matlibplot(object):
     def setupUi(self, Matlibplot):
         Matlibplot.setObjectName("Matlibplot")
         Matlibplot.resize(808, 650)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding,
-                                           QtWidgets.QSizePolicy.MinimumExpanding)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.MinimumExpanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Matlibplot.sizePolicy().hasHeightForWidth())
@@ -24,13 +23,12 @@ class Ui_Matlibplot(object):
         icon.addPixmap(QtGui.QPixmap("img/playstore.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         Matlibplot.setWindowIcon(icon)
         Matlibplot.setStyleSheet("background-color:#2E3440;\n"
-                                 "color:#D8DEE9;\n"
-                                 "\n"
-                                 "\n"
-                                 "")
+"color:#D8DEE9;\n"
+"\n"
+"\n"
+"")
         self.centralwidget = QtWidgets.QWidget(Matlibplot)
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding,
-                                           QtWidgets.QSizePolicy.MinimumExpanding)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.MinimumExpanding, QtWidgets.QSizePolicy.MinimumExpanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.centralwidget.sizePolicy().hasHeightForWidth())
@@ -50,7 +48,7 @@ class Ui_Matlibplot(object):
         self.groupBox.setObjectName("groupBox")
         self.gridLayout = QtWidgets.QGridLayout(self.groupBox)
         self.gridLayout.setObjectName("gridLayout")
-        self.widget = matlibplot1(self.client)
+        self.widget = matlibplot1(self.groupBox)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.MinimumExpanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -68,8 +66,8 @@ class Ui_Matlibplot(object):
         self.frame.setMinimumSize(QtCore.QSize(770, 80))
         self.frame.setMaximumSize(QtCore.QSize(770, 85))
         self.frame.setStyleSheet("QFrame{\n"
-                                 "border-bottom: 1px solid #404859;\n"
-                                 "}")
+"border-bottom: 1px solid #404859;\n"
+"}")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
@@ -91,20 +89,20 @@ class Ui_Matlibplot(object):
         self.Timer.setFocusPolicy(QtCore.Qt.ClickFocus)
         self.Timer.setAcceptDrops(False)
         self.Timer.setStyleSheet("QSlider::groove:horizontal {\n"
-                                 "    border: 1px solid #999999;\n"
-                                 "    border-radius: 3px;\n"
-                                 "    height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */\n"
-                                 "    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);\n"
-                                 "    margin: 2px 0;\n"
-                                 "}\n"
-                                 "\n"
-                                 "QSlider::handle:horizontal {\n"
-                                 "    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);\n"
-                                 "    border: 1px solid #5c5c5c;\n"
-                                 "    width: 18px;\n"
-                                 "    margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */\n"
-                                 "    border-radius: 3px;\n"
-                                 "}")
+"    border: 1px solid #999999;\n"
+"    border-radius: 3px;\n"
+"    height: 8px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */\n"
+"    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);\n"
+"    margin: 2px 0;\n"
+"}\n"
+"\n"
+"QSlider::handle:horizontal {\n"
+"    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);\n"
+"    border: 1px solid #5c5c5c;\n"
+"    width: 18px;\n"
+"    margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */\n"
+"    border-radius: 3px;\n"
+"}")
         self.Timer.setMinimum(1)
         self.Timer.setMaximum(10)
         self.Timer.setOrientation(QtCore.Qt.Horizontal)
@@ -139,17 +137,17 @@ class Ui_Matlibplot(object):
         font.setWeight(75)
         self.SavedFileButton.setFont(font)
         self.SavedFileButton.setStyleSheet("border:1px solid  rgb(199, 199, 199);\n"
-                                           "border-radius: 4px;\n"
-                                           "padding-top: 2px;\n"
-                                           "padding-bottom:2px;\n"
-                                           "padding-left:10px;\n"
-                                           "padding-right:10px;")
+"border-radius: 4px;\n"
+"padding-top: 2px;\n"
+"padding-bottom:2px;\n"
+"padding-left:10px;\n"
+"padding-right:10px;")
         self.SavedFileButton.setObjectName("SavedFileButton")
         self.frame_2 = QtWidgets.QFrame(self.frame)
         self.frame_2.setGeometry(QtCore.QRect(70, 10, 57, 24))
         self.frame_2.setStyleSheet(" background: #677590;\n"
-                                   "border-bottom:0px solid white;\n"
-                                   "border-radius:10px;")
+"border-bottom:0px solid white;\n"
+"border-radius:10px;")
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -163,24 +161,24 @@ class Ui_Matlibplot(object):
         self.toggleButton.setMouseTracking(True)
         self.toggleButton.setToolTipDuration(0)
         self.toggleButton.setStyleSheet("QSlider::groove:horizontal {\n"
-                                        "    width: 50px;\n"
-                                        "    border-bottom: 0px solid white;\n"
-                                        "    border-radius:10px;\n"
-                                        "    height: 20px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */\n"
-                                        "    background: #677590;\n"
-                                        "    margin: 0px 0px;\n"
-                                        "\n"
-                                        "}\n"
-                                        "\n"
-                                        "QSlider::handle:horizontal {\n"
-                                        "    width:20px;\n"
-                                        "    height: 20px;\n"
-                                        "    border-radius: 10px;\n"
-                                        "    background: #2E3440;\n"
-                                        "     margin: 0px 4px; \n"
-                                        "   /* expand outside the groove */\n"
-                                        "}\n"
-                                        "")
+"    width: 50px;\n"
+"    border-bottom: 0px solid white;\n"
+"    border-radius:10px;\n"
+"    height: 20px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */\n"
+"    background: #677590;\n"
+"    margin: 0px 0px;\n"
+"\n"
+"}\n"
+"\n"
+"QSlider::handle:horizontal {\n"
+"    width:20px;\n"
+"    height: 20px;\n"
+"    border-radius: 10px;\n"
+"    background: #2E3440;\n"
+"     margin: 0px 4px; \n"
+"   /* expand outside the groove */\n"
+"}\n"
+"")
         self.toggleButton.setMaximum(1)
         self.toggleButton.setSliderPosition(0)
         self.toggleButton.setOrientation(QtCore.Qt.Horizontal)
@@ -193,11 +191,11 @@ class Ui_Matlibplot(object):
         font.setWeight(75)
         self.StopDLButton.setFont(font)
         self.StopDLButton.setStyleSheet("border:1px solid  rgb(199, 199, 199);\n"
-                                        "border-radius: 4px;\n"
-                                        "padding-top: 2px;\n"
-                                        "padding-bottom:2px;\n"
-                                        "padding-left:10px;\n"
-                                        "padding-right:10px;")
+"border-radius: 4px;\n"
+"padding-top: 2px;\n"
+"padding-bottom:2px;\n"
+"padding-left:10px;\n"
+"padding-right:10px;")
         self.StopDLButton.setObjectName("StopDLButton")
         self.gridLayout.addWidget(self.frame, 0, 0, 1, 1)
         self.gridLayout_2.addWidget(self.groupBox, 0, 0, 1, 1)
@@ -211,10 +209,11 @@ class Ui_Matlibplot(object):
 
     def retranslateUi(self, Matlibplot):
         _translate = QtCore.QCoreApplication.translate
-        Matlibplot.setWindowTitle(_translate("Matlibplot", "CredoSense SRC-5 Control Panel"))
+        Matlibplot.setWindowTitle(_translate("Matlibplot", "CS-RC5 Control Panel"))
         self.label_10.setText(_translate("Matlibplot", "Chamber status: Closed"))
         self.label_11.setText(_translate("Matlibplot", "1"))
         self.label_12.setText(_translate("Matlibplot", "10"))
         self.label_13.setText(_translate("Matlibplot", "Adjust data collection rate (sec)"))
         self.SavedFileButton.setText(_translate("Matlibplot", "View Saved File"))
         self.StopDLButton.setText(_translate("Matlibplot", "Stop Logging"))
+
